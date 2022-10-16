@@ -1,26 +1,26 @@
 module github.com/fclairamb/ftpserver
 
-go 1.18
+go 1.19
 
 require (
-	github.com/aws/aws-sdk-go v1.44.66
+	github.com/aws/aws-sdk-go v1.44.116
 	github.com/fclairamb/afero-dropbox v0.1.0
 	github.com/fclairamb/afero-gdrive v0.3.0
 	github.com/fclairamb/afero-s3 v0.3.1
 	github.com/fclairamb/afero-snd v0.1.0
-	github.com/fclairamb/ftpserverlib v0.19.0
-	github.com/fclairamb/go-log v0.3.0
+	github.com/fclairamb/ftpserverlib v0.20.0
+	github.com/fclairamb/go-log v0.4.1
 	github.com/go-mail/mail v2.3.1+incompatible
 	github.com/pkg/sftp v1.13.5
 	github.com/spf13/afero v1.9.2
-	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa
-	golang.org/x/oauth2 v0.0.0-20220722155238-128564f6959c
+	golang.org/x/crypto v0.0.0-20221012134737-56aed061732a
+	golang.org/x/oauth2 v0.0.0-20221014153046-6fdb5e3db783
 )
 
 require (
 	cloud.google.com/go/compute v1.7.0 // indirect
 	github.com/dropbox/dropbox-sdk-go-unofficial v5.6.0+incompatible // indirect
-	github.com/go-kit/log v0.2.1 // indirect
+	github.com/go-kit/log v0.2.1
 	github.com/go-logfmt/logfmt v0.5.1 // indirect
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
@@ -30,7 +30,7 @@ require (
 	github.com/kr/fs v0.1.0 // indirect
 	go.opencensus.io v0.23.0 // indirect
 	golang.org/x/net v0.0.0-20220624214902-1bab6f366d9e // indirect
-	golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10 // indirect
+	golang.org/x/sys v0.0.0-20220919091848-fb04ddd9f9c8 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	google.golang.org/api v0.84.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
